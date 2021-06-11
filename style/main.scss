@@ -10,18 +10,12 @@
 html,
 body {
   font-family: "Roboto", sans-serif;
-  /* 
-  &::before {
-    display: block;
-    content: "";
-    height: 3.5rem;
-  } */
 }
 
 body::before {
   display: block;
   content: "";
-  height: 3.5rem;
+  height: 60px;
 }
 
 @media (min-width: 768px) {
@@ -35,11 +29,3 @@ body::before {
   height: 100%;
   border-radius: 10px;
 }
-/* @media (max-width: 991px) {
-  .img-bottom {
-    position: relative;
-    left: 60px;
-    top: 102px;
-  }
-}
- */
